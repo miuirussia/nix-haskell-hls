@@ -13,7 +13,7 @@ jobs:
           , "ghc884"
           , "ghc8102"
           ]
-        unstable: [true, false]
+        unstable: [true]
     name: "${{ matrix.os }}, ${{ matrix.ghc }}, unstable=${{ matrix.unstable }}"
     runs-on: ${{ matrix.os }}
     steps:
