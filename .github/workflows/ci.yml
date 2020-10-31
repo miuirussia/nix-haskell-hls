@@ -21,7 +21,7 @@ jobs:
     - uses: cachix/install-nix-action@v11
     - uses: cachix/cachix-action@v6
       with:
-        name: shajra
+        name: kdevlab
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
     - run: |
         mkdir -p ~/.config/nix
