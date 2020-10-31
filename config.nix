@@ -3,10 +3,10 @@
     haskell-nix.useMaterialization = false;
     haskell-nix.checkMaterialization = false;
     haskell-nix.hackage.index = {
-        state = "2020-10-19T00:00:00Z";
-        sha256 = "03a98qiqr53csy59pwgbfvnzg90ikaiz9gvxv6s9aw95f990z9mb";
+        state = "2020-10-21T01:14:10Z";
+        sha256 = "1q5y8h7x20m7lwsl7pxyqlbz9n49vxpzs8j31n45rp7libpddmym";
     };
-    haskell-nix.nixpkgs-pin = "nixpkgs-2003";
+    haskell-nix.nixpkgs-pin = "nixpkgs-2009";
     haskell-nix.plan = {
         # DESIGN: a "<packagename>.sha256" property will set the plan's hash
         # DESIGN: a "<packagename>.check" property will check materialization
